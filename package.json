@@ -27,7 +27,7 @@
     "serve": "node devServer.js",
     "watch:js": "watch 'npm run build-client' src/",
     "build-client": "browserify src/index.jsx -t babelify -o dist/build.js",
-    "livereload": "live-reload --port 9091 dist/",
+    "livereload" : "livereload dist/",
     "test": "babel-node test/index.js"
   }
 }
